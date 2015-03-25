@@ -47,5 +47,6 @@ You should be able to run the app directly in the browser by viewing the index.h
 
 * Include media queries to provide optimal experiences for devices of varying capabilities
 * Include brand elements to follow the design direction seen on [skybet.com](https://skybet.com) and [m.skybet.com](https://m.skybet.com)
+* Add the ability for the user to switch between [fractional and decimal odds](https://support.skybet.com/app/answers/detail/a_id/37/~/fraction-and-decimal-pricing)
 * Enhance the JavaScript to give better feedback and introduce extra interaction touches
 * Update the markup & CSS to introduce flexbox where appropriate
