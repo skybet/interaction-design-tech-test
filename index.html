@@ -3,7 +3,8 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Sky Betting and Gaming UX Test</title>
-    <script src="/js/vendor/require.js" data-main="/js/main.js"></script>
+    <script src="js/vendor/jquery-2.1.3.min.js" defer></script>
+    <script src="js/main.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <style>
         .spinner {
@@ -51,7 +52,7 @@
 <h1>Sky Betting and Gaming UX Test</h1>
 
 <table id="bet-list">
-    <caption> Available Bets</caption>
+    <caption>Available Bets</caption>
     <tbody id="bets">
     <tr>
         <td><img src="/img/spinner.gif" alt="" class="spinner"/></td>
@@ -61,7 +62,6 @@
 
 <div id="betslip">
     <h1 class="js-toggle">Your Betslip</h1>
-
     <div id="selections" class="js-toggle-target"></div>
 </div>
 
@@ -89,7 +89,7 @@
     </tr>
 </script>
 <script type="text/template" id="selection">
-    <form class="js-selection">
+    <form class="js-selection" novalidate>
         <table>
             <caption class="selection__title"></caption>
             <tbody>
