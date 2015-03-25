@@ -21,7 +21,7 @@
 
 ## Problem Details
 
-This test is built on top of our demo API ([http://skybettechtestapi.herokuapp.com]()) which is used to pull in a list of available bets and submit stakes to place actual bets.
+This test is built on top of our demo API ([http://skybettechtestapi.herokuapp.com](http://skybettechtestapi.herokuapp.com)) which is used to pull in a list of available bets and submit stakes to place actual bets.
 
 The general flow provided is:
 
@@ -43,7 +43,7 @@ Ideally, we want to see vanilla solutions so would prefer that existing framewor
 
 ## Extra Credit
 
-* Include brand elements to follow the design direction seen on [skybet.com]() and [m.skybet.com]()
+* Include brand elements to follow the design direction seen on [skybet.com](https://skybet.com) and [m.skybet.com](https://m.skybet.com)
 * Include media queries to provide optimal experiences for devices of varying capabilities
 * Enhance the JavaScript to give better feedback and introduce extra interaction touches
 * Update the markup & CSS to introduce flexbox where appropriate
