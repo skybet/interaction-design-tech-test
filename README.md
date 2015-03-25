@@ -13,6 +13,7 @@
 * Clean CSS
 * Clear user journey and interaction patterns
 * Understanding of JavaScript implementation and ability to update where necessary
+* Clear handling of states, notably errors
 
 ## Requirements
 
@@ -21,6 +22,20 @@
 ## Problem Details
 
 This test is built on top of our demo API ([http://skybettechtestapi.herokuapp.com]()) which is used to pull in a list of available bets and submit stakes to place actual bets.
+
+The general flow provided is:
+
+1. Show basic application skeleton
+1. Read available bets from API
+1. Present bets to the user
+    * Event name, bet name and formatted odds
+1. Allow the user to select one bet which gets displayed in a separate slip
+1. Allow the user to enter a stake next to the bet in the betslip
+    * Display potential returns for their bet
+1. Allow the user to submit the bet to the API
+1. Display any errors returned
+1. Display the receipt returned by a successful placement
+    * Event name, bet name, accepted odds, potential returns and transaction reference
 
 ## Notes
 
