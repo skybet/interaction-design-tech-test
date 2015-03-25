@@ -41,6 +41,8 @@ The general flow provided is:
 
 Ideally, we want to see vanilla solutions so would prefer that existing frameworks (such as Bootstrap or Foundation) are not used. This does not include pre-processors, which can be used to enhance the writing of CSS if desired.
 
+You should be able to run the app directly in the browser by viewing the index.html file, no server required.
+
 ## Extra Credit
 
 * Include media queries to provide optimal experiences for devices of varying capabilities
