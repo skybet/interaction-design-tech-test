@@ -3,8 +3,8 @@
 ## Problem Overview
 
 * Use CSS to style the provided markup to create a clean, intuitive user experience.
-* Fix any HTML that you may consider doesn't follow current best-practise guidelines
-* Embellish the user experience using animation, interactions and updated process flows
+* Fix any HTML that you may consider doesn't follow current best-practice guidelines
+* Enhance the user experience using animation, interactions and updated process flows
 
 ## What We're Looking For
 
